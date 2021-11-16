@@ -13,7 +13,7 @@ const MyOrders = () => {
     const { user } = useAuth();
     const [orders, setOrders] = useState([]);
     useEffect(() => {
-        const url = `http://localhost:5000/myOrders?email=${user.email}`
+        const url = `https://sheltered-earth-85610.herokuapp.com/myOrders?email=${user.email}`
         fetch(url)
             .then(res => res.json())
             .then(data => setOrders(data));

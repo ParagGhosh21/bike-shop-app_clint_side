@@ -53,7 +53,7 @@ function Dashboard(props) {
     const drawer = (
 
         <Box sx={{ textAlign: 'center' }}>
-            <NavLink style={{ color: 'black', textDecoration: 'none' }} to='/'><Typography variant='h5' sx={{ fontWeight: "medium", my: 2 }}>Hero Moto Shop</Typography></NavLink>
+            <NavLink style={{ color: 'black', textDecoration: 'none' }} to='/'><Typography variant='h5' sx={{ fontWeight: "medium", my: 2 }}>Bike Shop</Typography></NavLink>
 
             <Divider />
             <List sx={{ display: 'flex', flexDirection: 'column', my: 2 }}>

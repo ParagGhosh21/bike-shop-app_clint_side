@@ -10,7 +10,7 @@ import { Button, Typography } from '@mui/material';
 import useAuth from '../../Hooks/useAuth';
 
 const ManageAllOrders = () => {
-    const { user } = useAuth();
+    // const { user } = useAuth();
     const [orders, setOrders] = useState([]);
     useEffect(() => {
         const url = `https://sheltered-earth-85610.herokuapp.com/manageAllOrders`

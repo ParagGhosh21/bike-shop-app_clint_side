@@ -17,7 +17,7 @@ const Navigation = () => {
                 <Toolbar>
 
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1, textAlign: 'left' }}>
-                        <NavLink style={{ color: 'white', textDecoration: 'none' }} to='/'>Hero Moto Shop</NavLink >
+                        <NavLink style={{ color: 'white', textDecoration: 'none' }} to='/'>Bike Shop</NavLink >
                     </Typography>
 
                     {user?.email ?
